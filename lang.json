@@ -1,0 +1,35 @@
+{
+    "en": {
+      "welcome": "Hello we are <br><span>Games Creator</span>",
+      "job": "We Build Games",
+      "viewWork": "View Our Work",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact",
+      "scriptWriting": "Script Writing",
+      "scriptWritingDescription": "Research and write scripts for different topics that can then be directly recorded for video production.",
+      "videoProduction": "Video production",
+      "videoProductionDescription": "Record and shoot videos taking into consideration proper settings, followed by production and post-production work.",
+      "curriculumDevelopment": "Curriculum Development",
+      "curriculumDevelopmentDescription": "Develop complete curriculum for various technical topics to produce digital transformative courses.",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "ar": {
+      "welcome": "مرحبًا نحن <br><span>صناع الألعاب</span>",
+      "job": "نحن نبني الألعاب",
+      "viewWork": "عرض أعمالنا",
+      "services": "الخدمات",
+      "projects": "المشاريع",
+      "contact": "اتصل بنا",
+      "scriptWriting": "كتابة النصوص",
+      "scriptWritingDescription": "إجراء البحث وكتابة النصوص لمواضيع مختلفة يمكن تسجيلها مباشرة للإنتاج الفيديو.",
+      "videoProduction": "إنتاج الفيديو",
+      "videoProductionDescription": "تسجيل وتصوير الفيديوهات مع أخذ الإعدادات المناسبة في الاعتبار، تليها عملية الإنتاج وما بعد الإنتاج.",
+      "curriculumDevelopment": "تطوير المناهج",
+      "curriculumDevelopmentDescription": "تطوير مناهج كاملة لمواضيع فنية مختلفة لإنتاج دورات تعليمية رقمية.",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني"
+    }
+  }
+  

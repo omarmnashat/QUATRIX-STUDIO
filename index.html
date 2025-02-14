@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Quatrix Studio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Quatrix Studio</a>
+        <nav class="navigation">
+            <a href="#services" data-lang="services">Services</a>
+            <a href="#projects" data-lang="projects">Projects</a>
+            <a href="#contact" data-lang="contact">Contact</a>
+        </nav>
+        <div class="lang-switch">
+            <button id="english-btn" onclick="changeLanguage('en')">English</button>
+            <button id="arabic-btn" onclick="changeLanguage('ar')">العربية</button>
+        </div>
+    </header>
+
+    <section class="main">
+        <div>
+            
+            <h3 data-lang="job">We Build Games</h3>
+            <a href="#projects" class="main-btn" data-lang="viewWork">View Our Work</a>
+            <div class="social-icons">
+                <a href="https://discord.gg/dZdFc8YjpU" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://youtube.com/@quatrixstudio?si=9B0pdDCQscQPheTF" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title" data-lang="services">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                </div>
+                <div class="info">
+                    <h3 data-lang="scriptWriting">Script Writing</h3>
+                    <p data-lang="scriptWritingDescription">Research and write scripts for different topics that can then be directly recorded for video production.</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-video"></i>
+                </div>
+                <div class="info">
+                    <h3 data-lang="videoProduction">Video production</h3>
+                    <p data-lang="videoProductionDescription">Record and shoot videos taking into consideration proper settings, followed by production and post-production work.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="info">
+                    <h3 data-lang="curriculumDevelopment">Curriculum Development</h3>
+                    <p data-lang="curriculumDevelopmentDescription">Develop complete curriculum for various technical topics to produce digital transformative courses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title" data-lang="contact">Let's Work Together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3 data-lang="phone">Phone</h3>
+                    <p>+201286642701</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3 data-lang="email">Email</h3>
+                    <p>omar.mnashat@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Omar Mostafa</span></p>
+        <div class="social-icons">
+            <a href="https://discord.gg/dZdFc8YjpU"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://youtube.com/@quatrixstudio?si=9B0pdDCQscQPheTF"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
